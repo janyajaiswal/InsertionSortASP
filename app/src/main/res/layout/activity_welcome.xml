@@ -2,28 +2,45 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFF9C4">
+    android:background="#FFF4CC">
 
-    <TextView
-        android:id="@+id/welcome_message"
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Welcome to InsertionSortASP"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        android:layout_centerInParent="true"
-        android:textColor="#FF5722" />
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_centerInParent="true">
 
-    <Button
-        android:id="@+id/start_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Start Sorting"
-        android:layout_below="@id/welcome_message"
-        android:layout_marginTop="20dp"
-        android:layout_centerHorizontal="true"
-        android:backgroundTint="#4CAF50"
-        android:textColor="#FFFFFF" />
+        <!-- Main Title -->
+        <TextView
+            android:id="@+id/welcome_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome to InsertionSort"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"
+            android:textColor="#333333" />
 
+        <!-- Subtitle -->
+        <TextView
+            android:id="@+id/subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sort your numbers step-by-step, effortlessly!"
+            android:textSize="16sp"
+            android:layout_marginBottom="20dp"
+            android:textColor="#666666" />
+
+        <!-- Start Sorting Button -->
+        <Button
+            android:id="@+id/start_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start Sorting"
+            android:backgroundTint="#03A9F4"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
 
 </RelativeLayout>
