@@ -12,7 +12,6 @@
         android:layout_height="wrap_content"
         android:backgroundTint="#4CAF50"
         android:hint="Enter numbers separated by spaces (0-9)"
-        android:hintTextColor="#888888"
         android:inputType="text"
         android:padding="12dp"
         android:textColor="#000000"
